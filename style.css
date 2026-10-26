@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #142f52;
+}
+
+
+
+nav {
+    height: 85px;
+    background-color: #102642;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 7%;
+}
+
+nav h2 {
+    color: white;
+    font-size: 28px;
+}
+
+nav h2 span {
+    color: #9b68ff;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.hero {
+    height: 500px;
+
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+.hero-content {
+    padding: 90px 7%;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.hero h1 span {
+    color: #9b68ff;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.8;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #8b4df5;
+    color: white;
+
+    border: none;
+    padding: 17px 35px;
+
+    border-radius: 30px;
+
+    font-size: 18px;
+}
+
+
+
+.courses {
+    padding: 70px 7%;
+}
+
+.courses h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #607895;
+    margin-bottom: 40px;
+}
+
+
+.course-container {
+    display: flex;
+    gap: 30px;
+}
+
+.course {
+    width: 33.33%;
+    min-height: 235px;
+
+    padding: 35px 30px;
+
+    border-radius: 18px;
+
+    position: relative;
+}
+
+.course h3 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.course p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.course a {
+    color: #753ce8;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.web {
+    background-color: #eee5ff;
+}
+
+.design {
+    background-color: #dff3ff;
+}
+
+.data {
+    background-color: #ddf7ed;
+}
+
+
+
+.new {
+    position: absolute;
+
+    right: 20px;
+    top: 18px;
+
+    background-color: #8b4df5;
+    color: white;
+
+    padding: 9px 16px;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+}
+
+
+
+footer {
+    background-color: #102642;
+    color: white;
+
+    text-align: center;
+
+    padding: 45px;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+}
+
+footer span {
+    color: #9b68ff;
+}
+
+footer p {
+    font-size: 17px;
+}
